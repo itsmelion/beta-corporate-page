@@ -1,4 +1,11 @@
 
-html, body{
+html, body, h1, h2, p, span, h3, h4, h5, h6, blockquote, sub, i, b, strong, button, input{
     font-family: "Lato", "Roboto", "Helvetica", sans-serif;
+}
+h2{
+    font-weight: 300
+}
+
+section > div {
+    padding-right: 36px;
 }
