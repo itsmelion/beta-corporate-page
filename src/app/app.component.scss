@@ -20,12 +20,13 @@ header {
   #deal{
     width: 85%;
     height: auto;
-    margin: 1rem;
+    margin: 0;
     max-width: 1080px;
     background-color: white;
     border-radius: 6px;
     color: #181818;
     height: 80px;
+    box-shadow: 0 1px 7px #355570;
     h3{
       font-size: 18px;
       font-weight: 900;
@@ -48,6 +49,20 @@ header {
       border-radius: 6px 0 0 6px;
       height: 100%;
       position: relative;
+    }
+    &:nth-of-type(1){
+      transform: scale(.9);
+      #status{background-color: mediumseagreen;}
+    }
+    &:nth-of-type(2){
+      margin-top: -10px;
+      transform: scale(1);
+      #status{background-color: #f4c818;}
+    }
+    &:nth-of-type(3){
+      margin-top: -10px;
+      transform: scale(.9);
+      #status{background-color: red;}
     }
   }
   button {
