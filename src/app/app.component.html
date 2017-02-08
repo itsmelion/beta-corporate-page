@@ -1,36 +1,63 @@
 <header class="uk-width-1-1 uk-light uk-flex uk-flex-column uk-flex-middle uk-flex-center">
-  <img id="logo" alt="Plug beta Screenshot" src="title2.svg" />
-  <!--<img id="deal" class="uk-animation-fade uk-animation-slide-bottom" alt="Plug beta Screenshot" src="deal2.svg" />-->
-  <div id="deal" class="uk-flex-inline uk-flex-between uk-flex-middle uk-flex-no-wrap">
-    <div id="status"></div>
-    <div><h3>Negociação de exemplo</h3><p>Organização tabajara</p></div>
-    <img src="stars.gif"/>
-    <img src="pipe.gif"/>
-    <div task> taks</div>
-  </div>
-  <div id="deal" style="z-index: 3" class="uk-flex-inline uk-flex-between uk-flex-middle uk-flex-no-wrap">
-    <div id="status"></div>
-    <div><h3>Negociação de exemplo</h3><p>Organização tabajara</p></div>
-    <img src="stars.gif"/>
-    <img src="pipe.gif"/>
-    <div task> taks</div>
-  </div>
-  <div id="deal" class="uk-flex-inline uk-flex-between uk-flex-middle uk-flex-no-wrap">
-    <div id="status"></div>
-    <div><h3>Negociação de exemplo</h3><p>Organização tabajara</p></div>
-    <img src="stars.gif"/>
-    <img src="pipe.gif"/>
-    <div task> taks</div>
-  </div>
-  
-  <div class="uk-flex uk-flex-middle uk-flex-column">
+  <img id="logo" alt="Plug beta Screenshot" src="assets/title2.svg" />
+  <div id="lead" class="uk-flex uk-flex-middle uk-flex-column">
     <h2>Mais simples, mais completo e mais amigável</h2>
     <p>
       Migre agora para a nova versão do Plug CRM<br />
     </p>
-    <button><span>Migrar de versão</span></button>
+    <button class="gradient"><span>Migrar de versão</span></button>
     <p><sub>Sales' best friend</sub></p>
   </div>
+  <div class="uk-flex uk-flex-column uk-flex-center uk-flex-bottom uk-flex-no-wrap uk-width-1-1 uk-flex-none mockup-container">
+
+  <div class="uk-flex-inline uk-flex-between uk-flex-middle uk-flex-no-wrap uk-flex-none deal">
+    <div class="status"></div>
+    <div class="avatar"><img src="assets/lion.jpeg" /></div>
+    <div>
+      <h3>Negociação de exemplo</h3>
+      <p>Organização tabajara</p>
+    </div>
+    <img class="gif" src="assets/4stars.png" />
+    <img class="gif" src="assets/pipewon.png" />
+    <div class="uk-flex-inline uk-flex-around uk-flex-middle uk-flex-no-wrap uk-flex-none tasks">
+      <img src="assets/no-tasks.svg"/>
+      <p>Nenhuma tarefa agendada</p>
+    </div>
+  </div>
+
+  <div class="uk-flex-inline uk-flex-between uk-flex-middle uk-flex-no-wrap uk-flex-none deal">
+    <div class="status"></div>
+    <div class="avatar"><img src="assets/lion.jpeg" /></div>
+    <div>
+      <h3>Negociação de exemplo</h3>
+      <p>Organização tabajara</p>
+    </div>
+    <img class="gif" src="assets/stars.gif" />
+    <img class="gif" src="assets/pipe.gif" />
+    <div class="uk-flex-inline uk-flex-around uk-flex-middle uk-flex-no-wrap uk-flex-none tasks">
+      <img src="assets/call.svg"/>
+      <p>Ligar pro Rogério<br>
+      <sub style="color: red">Ontem às 4pm</sub></p> 
+    </div>
+  </div>
+
+  <div class="uk-flex-inline uk-flex-between uk-flex-middle uk-flex-no-wrap uk-flex-none deal">
+    <div class="status"></div>
+    <div class="avatar"><img src="assets/lion.jpeg" /></div>
+    <div>
+      <h3>Negociação de exemplo</h3>
+      <p>Organização tabajara</p>
+    </div>
+    <img class="gif" src="assets/1stars.png" />
+    <img class="gif" src="assets/pipelost.png" />
+    <div class="uk-flex-inline uk-flex-around uk-flex-middle uk-flex-no-wrap uk-flex-none tasks">
+      <img src="assets/reunion.svg"/>
+      <p>Reunião com a equipe<br>
+      <sub>Amanhã às 9am</sub></p> 
+    </div>
+  </div>
+  
+</div>
 </header>
 
 <section class="uk-width-1-1">
@@ -43,7 +70,7 @@
 
 <section class="uk-flex-inline uk-flex-around uk-flex-start uk-flex-wrap uk-width-1-1">
   <div class="uk-width-1-1 uk-flex-inline uk-flex-center uk-flex-middle" style="overflow: hidden">
-    <img src="mockups.jpg" style="margin-left: -120px" uk-scrollspy="cls: uk-animation-fade; repeat: true, delay: 1" alt="Sistema multiplataforma">
+    <img src="assets/mockups.jpg" style="margin-left: -120px" uk-scrollspy="cls: uk-animation-fade; repeat: true, delay: 1" alt="Sistema multiplataforma">
   </div>
   <div class="uk-width-1-2">
     <h2>Estarei perdendo alguma coisa?</h2>
@@ -82,7 +109,7 @@
 
 <section class="uk-flex-inline uk-flex-around uk-flex-start uk-flex-wrap uk-width-1-1">
   <div class="uk-width-1-2 uk-flex-inline uk-flex-center uk-flex-middle" style="overflow: hidden">
-    <img src="mockups.jpg" style="margin-left: -120px" uk-scrollspy="cls: uk-animation-fade; repeat: true, delay: 1" alt="Sistema multiplataforma">
+    <img src="assets/mockups.jpg" style="margin-left: -120px" uk-scrollspy="cls: uk-animation-fade; repeat: true, delay: 1" alt="Sistema multiplataforma">
   </div>
 
   <div class="uk-width-1-2">
@@ -97,6 +124,6 @@
   <h4>get all news from future changes</h4>
   <div class="uk-flex uk-flex-nowrap uk-flex-row">
     <input type="email" placeholder="john_doe@plugcrm.net" required />
-    <button type="submit"><span>submit</span></button>
+    <button class="gradient" type="submit"><span>submit</span></button>
   </div>
 </footer>

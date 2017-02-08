@@ -9,3 +9,23 @@ h2{
 section > div {
     padding-right: 36px;
 }
+
+
+header{
+    padding: 36px 50px 0 50px;
+}
+section, footer {
+    padding: 50px 80px;
+}
+
+@media screen and (max-width: 760px){
+  section > div {
+    padding-right: 36px;
+  }
+  header{
+    padding: 12px 20px 0 20px;
+  }
+  section, footer {
+    padding: 36px;
+  }
+}
